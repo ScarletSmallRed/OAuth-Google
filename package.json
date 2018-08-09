@@ -1,0 +1,24 @@
+{
+  "name": "oauth-google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScarletSmallRed/OAuth-Google.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScarletSmallRed/OAuth-Google/issues"
+  },
+  "homepage": "https://github.com/ScarletSmallRed/OAuth-Google#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
