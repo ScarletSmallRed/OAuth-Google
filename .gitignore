@@ -62,3 +62,6 @@ typings/
 
 # nodemon file
 nodemon.json
+
+# keys file
+keys.js
