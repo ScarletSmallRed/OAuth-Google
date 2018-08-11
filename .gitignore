@@ -65,3 +65,6 @@ nodemon.json
 
 # keys file
 keys.js
+
+# VS Code config folder
+.vscode
