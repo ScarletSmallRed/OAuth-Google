@@ -2,6 +2,7 @@ const express = require('express')
 const authRoutes = require("./routes/auth")
 const morgan = require("morgan")
 require('./config/passport-setup')
+require("./config/db-setup")
 
 const app = express()
 
