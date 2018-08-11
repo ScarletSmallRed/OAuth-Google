@@ -6,7 +6,8 @@ exports.login = (req, res) => {
 
 exports.logout = (req, res) => {
     // handle with passport
-    res.send('logging out');
+    req.logout()
+    res.redirect("/")
 }
 
 exports.google = passport.authenticate('google', {
