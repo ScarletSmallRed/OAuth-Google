@@ -14,5 +14,10 @@ exports.google = passport.authenticate('google', {
 })
 
 exports.google_redirect = (req, res) => {
-    res.send('you reached the redirect URI');
+    res.redirect("/profile")
 }
+
+// eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWI2ZWFkMDQ2ZTlhNDYxMDQzMTA2NjU3In19
+// eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWI2ZWFkMDQ2ZTlhNDYxMDQzMTA2NjU3In19
+// eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWI2ZWFkMDQ2ZTlhNDYxMDQzMTA2NjU3In19
+// eyJwYXNzcG9ydCI6eyJ1c2VyIjoiNWI2ZWFkMDQ2ZTlhNDYxMDQzMTA2NjU3In1910
